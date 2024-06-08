@@ -8,6 +8,6 @@ namespace BlazorCrud.Domain.Enums
 {
     public enum Category
     {
-        Science, Technology, Fitness, Travel
+        Science = 1, Technology, Fitness, Travel
     }
 }

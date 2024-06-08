@@ -1,5 +1,7 @@
+using BlazorCrud.Application.Interfaces;
 using BlazorCrud.Components;
 using BlazorCrud.Infrastructure.Context;
+using BlazorCrud.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,8 @@ builder.Services.AddDbContextFactory<BlazorCrudDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("BlazorCrudConnection"));
 });
+
+builder.Services.AddScoped<IBookRepository,BookRepository>();
 
 var app = builder.Build();
 

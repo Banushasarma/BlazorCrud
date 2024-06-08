@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCrud.Domain", "BlazorCrud.Domain\BlazorCrud.Domain.csproj", "{2E81FB18-FE1C-4726-B8F4-C14551FE4230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCrud.Domain", "BlazorCrud.Domain\BlazorCrud.Domain.csproj", "{2E81FB18-FE1C-4726-B8F4-C14551FE4230}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCrud.Application", "BlazorCrud.Application\BlazorCrud.Application.csproj", "{001E8EAC-BE67-4F3F-B550-91494E3C5C8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCrud.Application", "BlazorCrud.Application\BlazorCrud.Application.csproj", "{001E8EAC-BE67-4F3F-B550-91494E3C5C8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCrud.Infrastructure", "BlazorCrud.Infrastructure\BlazorCrud.Infrastructure.csproj", "{44E4434B-E150-4485-850B-0C5FB6FFB6AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCrud.Infrastructure", "BlazorCrud.Infrastructure\BlazorCrud.Infrastructure.csproj", "{44E4434B-E150-4485-850B-0C5FB6FFB6AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCrud", "BlazorCrud\BlazorCrud.csproj", "{CB84E6CB-5CC0-4CC2-B704-A625D9AF8CB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCrud", "BlazorCrud\BlazorCrud.csproj", "{CB84E6CB-5CC0-4CC2-B704-A625D9AF8CB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
