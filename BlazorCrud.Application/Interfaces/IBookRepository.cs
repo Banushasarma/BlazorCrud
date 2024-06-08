@@ -11,5 +11,7 @@ namespace BlazorCrud.Application.Interfaces
     {
         Task AddAsync(Book book);
 
+        Task<List<Book>> GetAllAsync();
+
     }
 }
