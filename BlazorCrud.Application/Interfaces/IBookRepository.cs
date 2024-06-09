@@ -15,5 +15,6 @@ namespace BlazorCrud.Application.Interfaces
         Task<Book> GetByIdAsync(int id);
 
         Task UpdateAsync(Book book);
+        Task DeleteIdAsync(int id);
     }
 }

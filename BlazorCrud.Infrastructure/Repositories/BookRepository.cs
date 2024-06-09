@@ -24,6 +24,16 @@ namespace BlazorCrud.Infrastructure.Repositories
             await context.SaveChangesAsync();
         }
 
+        public async Task DeleteIdAsync(int id)
+        {
+             var book = await GetByIdAsync(id);
+            if (book != null)
+            {
+                context.Books.Remove(book);
+                await context.SaveChangesAsync();   
+            }
+        }
+
         public async Task<List<Book>> GetAllAsync()
         {
             var books = await context.Books.ToListAsync();
